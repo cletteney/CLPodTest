@@ -16,6 +16,7 @@
 		FD48490A26054E8B009E48EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48490826054E8B009E48EF /* Main.storyboard */; };
 		FD48490C26054E97009E48EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD48490B26054E97009E48EF /* Assets.xcassets */; };
 		FD48490F26054E97009E48EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD48490D26054E97009E48EF /* LaunchScreen.storyboard */; };
+		FD484920260555E7009E48EF /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48491F260555E7009E48EF /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		FD48490B26054E97009E48EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD48490E26054E97009E48EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD48491026054E97009E48EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD48491F260555E7009E48EF /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FD4848E326054E39009E48EF /* CLPodTest.h */,
 				FD4848E426054E39009E48EF /* Info.plist */,
+				FD48491F260555E7009E48EF /* UIViewController+Extensions.swift */,
 			);
 			path = CLPodTest;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					FD4848DF26054E39009E48EF = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					FD4848E826054E39009E48EF = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD484920260555E7009E48EF /* UIViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		FD4848F526054E39009E48EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2Q3C3T4DXB;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cl.CLPodTest;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		FD4848F626054E39009E48EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2Q3C3T4DXB;
@@ -486,6 +494,7 @@
 		FD4848F826054E39009E48EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q3C3T4DXB;
 				INFOPLIST_FILE = CLPodTestTests/Info.plist;
@@ -504,6 +513,7 @@
 		FD4848F926054E39009E48EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q3C3T4DXB;
 				INFOPLIST_FILE = CLPodTestTests/Info.plist;
