@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CLPodTesting"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Test CocoaPod library to pratice development and publishing."
 
   spec.description  = <<-DESC
