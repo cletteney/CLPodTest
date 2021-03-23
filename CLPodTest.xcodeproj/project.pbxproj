@@ -73,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD14D522260A72DB00EB09D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD48491F260555E7009E48EF /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FD4848D626054E39009E48EF = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +104,9 @@
 		FD4848E226054E39009E48EF /* CLPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				FD14D522260A72DB00EB09D4 /* Extensions */,
 				FD4848E326054E39009E48EF /* CLPodTest.h */,
 				FD4848E426054E39009E48EF /* Info.plist */,
-				FD48491F260555E7009E48EF /* UIViewController+Extensions.swift */,
 			);
 			path = CLPodTest;
 			sourceTree = "<group>";
