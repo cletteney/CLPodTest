@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    Test Library Test Library Test Library Test Library Test Library Test Library Test Library
                    DESC
-  spec.homepage     = "http://github.com/cletteney/CLPodTest"
+  spec.homepage     = "https://github.com/cletteney/CLPodTest"
 
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
